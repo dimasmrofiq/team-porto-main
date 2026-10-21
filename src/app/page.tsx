@@ -70,6 +70,8 @@ const projectItems = [
 ];
 const certificateItems = [
   { title: "AMICTA E-Certificate", slug: "certificate-preview-01", image: "/images/sertifikat-amicta-faishal-mumtazah.png", pdf: "/certificates/sertifikat-amicta-faishal-mumtazah.pdf" },
+  { title: "AMICTA E-Certificate - Fathan Tamim Taqiyyuddin", slug: "certificate-fathan-tamim-taqiyyuddin", image: "/images/sertifikat-amicta-fathan-tamim-taqiyyuddin.png", pdf: "/certificates/sertifikat-amicta-fathan-tamim-taqiyyuddin.pdf" },
+  { title: "AMICTA E-Certificate - Dimas Muhamad Rofiq", slug: "certificate-dimas-muhamad-rofiq", image: "/images/sertifikat-amicta-dimas-muhamad-rofiq.png", pdf: "/certificates/sertifikat-amicta-dimas-muhamad-rofiq.pdf" },
 ];
 const awardGalleryItems = [
   { label: "NutriVerse team showcase", image: "/images/award-card-front.jpg" },
@@ -310,7 +312,7 @@ export default function Home() {
         </div>
         <div className={styles.aboutStats}>
           <article><span>⌘</span><strong>02</strong><p>Projects</p><b>↗</b></article>
-          <article><span>◉</span><strong>01</strong><p>Certificates</p><b>↗</b></article>
+          <article><span>◉</span><strong>03</strong><p>Certificates</p><b>↗</b></article>
           <article><span>✦</span><strong>03</strong><p>Awards</p><b>↗</b></article>
         </div>
       </section>

@@ -36,6 +36,28 @@ const details = {
     aspectRatio: "994 / 1404",
     pdf: "/certificates/sertifikat-amicta-faishal-mumtazah.pdf",
   },
+  "certificate-fathan-tamim-taqiyyuddin": {
+    label: { en: "Certificate preview", id: "Pratinjau sertifikat" },
+    title: { en: "AMICTA E-Certificate - Fathan Tamim Taqiyyuddin", id: "E-Sertifikat AMICTA - Fathan Tamim Taqiyyuddin" },
+    description: {
+      en: "Fathan Tamim Taqiyyuddin's certificate for winning second place in the Information Systems Application category at AMICTA 2026 with Team NutriVerse.",
+      id: "Sertifikat Fathan Tamim Taqiyyuddin sebagai Juara II kategori Aplikasi Sistem Informasi pada AMICTA 2026 bersama tim NutriVerse.",
+    },
+    image: "/images/sertifikat-amicta-fathan-tamim-taqiyyuddin.png",
+    aspectRatio: "596 / 842",
+    pdf: "/certificates/sertifikat-amicta-fathan-tamim-taqiyyuddin.pdf",
+  },
+  "certificate-dimas-muhamad-rofiq": {
+    label: { en: "Certificate preview", id: "Pratinjau sertifikat" },
+    title: { en: "AMICTA E-Certificate - Dimas Muhamad Rofiq", id: "E-Sertifikat AMICTA - Dimas Muhamad Rofiq" },
+    description: {
+      en: "Dimas Muhamad Rofiq's certificate for winning second place in the Information Systems Application category at AMICTA 2026 with Team NutriVerse.",
+      id: "Sertifikat Dimas Muhamad Rofiq sebagai Juara II kategori Aplikasi Sistem Informasi pada AMICTA 2026 bersama tim NutriVerse.",
+    },
+    image: "/images/sertifikat-amicta-dimas-muhamad-rofiq.png",
+    aspectRatio: "596 / 842",
+    pdf: "/certificates/sertifikat-amicta-dimas-muhamad-rofiq.pdf",
+  },
 } as const;
 
 export default function DetailPage({ params, searchParams }: { params: { slug: string }; searchParams?: { lang?: string } }) {
